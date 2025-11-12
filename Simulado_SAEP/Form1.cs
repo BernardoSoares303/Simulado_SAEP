@@ -6,5 +6,25 @@ namespace Simulado_SAEP
         {
             InitializeComponent();
         }
+
+        private void Cadastrar_Carro_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Editar_Carros_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Excluir_Carros_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Ver_Carros_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
