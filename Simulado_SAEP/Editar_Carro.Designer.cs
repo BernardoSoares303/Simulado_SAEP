@@ -92,6 +92,7 @@
             Km_text.Name = "Km_text";
             Km_text.Size = new Size(112, 37);
             Km_text.TabIndex = 55;
+            Km_text.TextChanged += Km_text_TextChanged;
             // 
             // label13
             // 
@@ -111,6 +112,7 @@
             Potencia_Text.Name = "Potencia_Text";
             Potencia_Text.Size = new Size(112, 37);
             Potencia_Text.TabIndex = 53;
+            Potencia_Text.TextChanged += Potencia_Text_TextChanged;
             // 
             // label12
             // 
@@ -145,6 +147,7 @@
             Nacional_Radio.TabStop = true;
             Nacional_Radio.Text = "Nacional";
             Nacional_Radio.UseVisualStyleBackColor = true;
+            Nacional_Radio.TextChanged += Nacional_Radio_CheckedChanged;
             // 
             // label11
             // 
@@ -164,6 +167,7 @@
             Velocidade_text.Name = "Velocidade_text";
             Velocidade_text.Size = new Size(94, 37);
             Velocidade_text.TabIndex = 48;
+            Velocidade_text.TextChanged += Velocidade_text_TextChanged;
             // 
             // label10
             // 
@@ -183,6 +187,7 @@
             Num_Portas_Text.Name = "Num_Portas_Text";
             Num_Portas_Text.Size = new Size(69, 37);
             Num_Portas_Text.TabIndex = 46;
+            Num_Portas_Text.TextChanged += Num_Portas_Text_TextChanged;
             // 
             // label9
             // 
@@ -202,6 +207,7 @@
             Combustivel_Text.Name = "Combustivel_Text";
             Combustivel_Text.Size = new Size(218, 37);
             Combustivel_Text.TabIndex = 44;
+            Combustivel_Text.TextChanged += Combustivel_Text_TextChanged;
             // 
             // label8
             // 
@@ -221,6 +227,7 @@
             Chassi_text.Name = "Chassi_text";
             Chassi_text.Size = new Size(203, 37);
             Chassi_text.TabIndex = 42;
+            Chassi_text.TextChanged += Chassi_text_TextChanged;
             // 
             // label7
             // 
@@ -240,6 +247,7 @@
             Placa_Text.Name = "Placa_Text";
             Placa_Text.Size = new Size(125, 37);
             Placa_Text.TabIndex = 40;
+            Placa_Text.TextChanged += Placa_Text_TextChanged;
             // 
             // label6
             // 
@@ -259,6 +267,7 @@
             Cor_Text.Name = "Cor_Text";
             Cor_Text.Size = new Size(112, 37);
             Cor_Text.TabIndex = 38;
+            Cor_Text.TextChanged += Cor_Text_TextChanged;
             // 
             // label5
             // 
@@ -278,6 +287,7 @@
             Valor_Text.Name = "Valor_Text";
             Valor_Text.Size = new Size(297, 37);
             Valor_Text.TabIndex = 36;
+            Valor_Text.TextChanged += Valor_Text_TextChanged;
             // 
             // label4
             // 
@@ -297,6 +307,7 @@
             Avarias_Text.Name = "Avarias_Text";
             Avarias_Text.Size = new Size(297, 37);
             Avarias_Text.TabIndex = 34;
+            Avarias_Text.TextChanged += Avarias_Text_TextChanged;
             // 
             // label3
             // 
@@ -316,6 +327,7 @@
             Ano_Text.Name = "Ano_Text";
             Ano_Text.Size = new Size(112, 37);
             Ano_Text.TabIndex = 32;
+            Ano_Text.TextChanged += Ano_Text_TextChanged;
             // 
             // label2
             // 

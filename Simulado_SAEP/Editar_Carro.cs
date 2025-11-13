@@ -140,6 +140,5 @@ namespace Simulado_SAEP
             editar(c1, id);
             this.Close();
         }
-
     }
 }
