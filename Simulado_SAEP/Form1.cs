@@ -17,7 +17,10 @@ namespace Simulado_SAEP
 
         private void Editar_Carros_Click(object sender, EventArgs e)
         {
+            Editar_Carro editar_Carro = new Editar_Carro();
+            this.Hide();
 
+            editar_Carro.Show();
         }
 
         private void Excluir_Carros_Click(object sender, EventArgs e)
