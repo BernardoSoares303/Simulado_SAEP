@@ -13,7 +13,7 @@ namespace Simulado_SAEP
 {
     public partial class Deletar_Carro : Form
     {
-        public static string conexao = "server=127.0.0.1;Port=3307;database=simulado_saep;uid=root;pwd='';";
+        public static string conexao = "server=127.0.0.1;Port=3306;database=simulado_saep;uid=root;pwd='';";
         static Form1 f1 = new Form1();
         static int id;
         public Deletar_Carro()
