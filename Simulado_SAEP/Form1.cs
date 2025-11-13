@@ -25,7 +25,10 @@ namespace Simulado_SAEP
 
         private void Excluir_Carros_Click(object sender, EventArgs e)
         {
+            Deletar_Carro deletar_Carro = new Deletar_Carro();
+            this.Hide();
 
+            deletar_Carro.Show();
         }
 
         private void Ver_Carros_Click(object sender, EventArgs e)
